@@ -1,0 +1,57 @@
+/* Set box width and height properties to include border, padding, and content */
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* Style font for all text on the page */
+
+body {
+	font-family: "Raleway", sans-serif;
+	color: #747784;
+	font-weight: 300;
+}
+
+/* Catch-all to set objects' maximum widths equal to 100% of their containers */
+
+img, 
+embed, 
+object, 
+video {
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Style header text with class text-green */
+
+.text-green {
+	color: #bcbb58;
+}
+
+/* Header styling */
+
+.text-thin {
+	font-weight: 100;
+}
+
+.title-main {
+	font-size: 60px;
+}
+
+.logo {
+	margin-top: 20px;
+
+}
+
+/* Style horizontal rule */
+
+hr {
+	border: none;
+	height: 3px;
+	color: #bcbb58;
+	background-color: #bcbb58;
+}
